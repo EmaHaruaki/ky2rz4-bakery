@@ -97,7 +97,7 @@
         </div>
         <div class="bottom_block">
           <div class="info_wrap">
-            <div class="tel tel_link" data-number="0263753707"><a href="tel:0263753707">TEL 0263-75-3707</a></div>
+            <div class="tel tel_link" data-number="0312345678"><a href="tel:0312345678">TEL 03-1234-5678</a></div>
             <div class="time">OPEN 9:00〜16:00 / CLOSE 月・火<br>※売り切れ次第閉店</div>
           </div>
           <ul class="sns_list">
