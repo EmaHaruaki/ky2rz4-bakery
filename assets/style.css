@@ -133,6 +133,19 @@ a {
   width: 1px;
 }
 
+#mainvisual {
+  position: relative;
+}
+
+#mainvisual .main_logo  {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 /*------------------------------------------------- PC版ここから -------------------------------------------------*/
 
 .blog_nav {
