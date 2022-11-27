@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* PC版ここから */
+#fromStaff .snsArea .mt15 a{
+  display: inline-block;
+  width: 222px;
+  margin: 0 auto;
+  padding: 10px 0 5px 0;
+  background: #646464;
+  -webkit-border-radius:40px;
+  border-radius:40px;
+  -webkit-transiton: all .5s;
+  transition: all .5s;
+}
+#fromStaff .snsArea .mt15 a:first-child{
+  margin: 0 10px 0 0;
+}
+#fromStaff .snsArea .mt15 a:hover{
+  background: #000;
+}
+/* SP版ここから */
+@media screen and (max-width: 768px) {
+  #fromStaff .snsArea .mt15 a{
+    display: block;
+    margin: 0 auto;
+    width: 161px;
+    box-sizing: border-box;
+    padding: 10px 15px 5px 10px;
+  }
+  #fromStaff .snsArea .mt15 a:first-child{
+    margin: 0 auto 10px auto;
+  }
+  #fromStaff .snsArea .mt15 a img{
+    width: 100%;
+  }
+  #fromStaff .snsArea .mt15 a:last-child img{
+    width: 118px;
+  }
+}
