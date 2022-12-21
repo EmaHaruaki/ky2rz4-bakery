@@ -26,14 +26,6 @@
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/blog/" class="opa">
-              <div class="nav_text">
-                <span class="en">BLOG</span>
-                <span class="jp">ブログ</span>
-              </div>
-            </nuxt-link>
-          </li>
-          <li>
             <nuxt-link to="/#shopinfo" class="opa">
               <div class="nav_text">
                 <span class="en">SHOP</span>
@@ -79,12 +71,6 @@
               <nuxt-link to="/news/" class="opa">
                 <span class="en">NEWS</span>
                 <span class="jp">お知らせ</span>
-              </nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/blog/" class="opa">
-                <span class="en">BLOG</span>
-                <span class="jp">ブログ</span>
               </nuxt-link>
             </li>
             <li>

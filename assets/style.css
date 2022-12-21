@@ -1724,7 +1724,7 @@ header .bottom_block p {
 
 @media screen and (max-width: 768px) {
   #contents_index .blog_area {
-    padding: 40px 0 0;
+    padding: 40px 0 50px;
   }
 
   #contents_index .blog_area .posts_block {

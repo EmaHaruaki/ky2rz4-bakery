@@ -84,6 +84,15 @@
         <!-- .base_inner -->
       </div>
 
+      <div class="insta_area">
+        <div class="base_inner">
+          <h2 class="area_head title_type01">Instagram</h2>
+          <div class="square_contents">
+            <a v-for="n in insta_detail.details.ext_col_05" :key="n.ext_col_05" href="#"><img :src=n.ext_col_07></a>
+          </div>
+        </div>
+      </div>
+
       <div class="menu_area">
         <div class="base_inner">
           <h2 class="area_title title_type01">Menu Line Up</h2>
@@ -95,12 +104,11 @@
                 <div class="box">
                   <nuxt-link to="/menu/">
                     <div class="img_box">
-                      <img :src="menu_list.list[0].ext_col_01.url" alt=""
-                        class="retina image" scale="0">
+                      <img :src="menu_list.list[0].ext_col_01.url" alt="" class="retina image" scale="0">
                     </div>
                     <div class="textbox">
                       <div class="text">
-                        <div class="box_title">{{menu_list.list[0].subject}}</div>
+                        <div class="box_title">{{ menu_list.list[0].subject }}</div>
                         <!--<div class="price">&yen;000</div>-->
                       </div>
                     </div>
@@ -112,12 +120,11 @@
                 <div v-for="n in 2" :key="n.topics_id" class="box">
                   <nuxt-link to="/menu/">
                     <div class="img_box">
-                      <img :src="menu_list.list[n].ext_col_01.url" alt=""
-                        class="retina image" scale="0">
+                      <img :src="menu_list.list[n].ext_col_01.url" alt="" class="retina image" scale="0">
                     </div>
                     <div class="textbox">
                       <div class="text">
-                        <div class="box_title">{{menu_list.list[n].subject}}</div>
+                        <div class="box_title">{{ menu_list.list[n].subject }}</div>
                         <!--<div class="price">&yen;000</div>-->
                       </div>
                     </div>
@@ -131,12 +138,11 @@
                 <div v-for="n in 2" :key="n.topics_id" class="box">
                   <nuxt-link to="/menu/">
                     <div class="img_box">
-                      <img :src="menu_list.list[n+2].ext_col_01.url" alt=""
-                        class="retina image" scale="0">
+                      <img :src="menu_list.list[n + 2].ext_col_01.url" alt="" class="retina image" scale="0">
                     </div>
                     <div class="textbox">
                       <div class="text">
-                        <div class="box_title">{{menu_list.list[n+2].subject}}</div>
+                        <div class="box_title">{{ menu_list.list[n + 2].subject }}</div>
                         <!--<div class="price">&yen;000</div>-->
                       </div>
                     </div>
@@ -147,12 +153,11 @@
                 <div class="box">
                   <nuxt-link to="/menu/">
                     <div class="img_box">
-                      <img :src="menu_list.list[5].ext_col_01.url" alt=""
-                        class="retina image" scale="0">
+                      <img :src="menu_list.list[5].ext_col_01.url" alt="" class="retina image" scale="0">
                     </div>
                     <div class="textbox">
                       <div class="text">
-                        <div class="box_title">{{menu_list.list[5].subject}}</div>
+                        <div class="box_title">{{ menu_list.list[5].subject }}</div>
                         <!--<div class="price">&yen;000</div>-->
                       </div>
                     </div>
@@ -174,7 +179,8 @@
         <div class="base_inner">
           <div class="area_title title_type01">Shop Info</div>
           <div class="img_wrap">
-            <div class="area_img" style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/AdobeStock_320318663.jpeg);">
+            <div class="area_img"
+              style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/AdobeStock_320318663.jpeg);">
             </div>
           </div>
 
@@ -204,13 +210,16 @@
 
               <div class="access info_box">
                 住吉駅より徒歩5分<br>
-                
+
               </div>
             </div>
             <!-- .left_block -->
 
             <div class="right_block">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.3159110266847!2d139.8127350395483!3d35.68763154717061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601888dfbadb7325%3A0x50131cc0648705ce!2z5L2P5ZCJ6aeF!5e0!3m2!1sja!2smy!4v1669386666971!5m2!1sja!2smy" width="480" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.3159110266847!2d139.8127350395483!3d35.68763154717061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601888dfbadb7325%3A0x50131cc0648705ce!2z5L2P5ZCJ6aeF!5e0!3m2!1sja!2smy!4v1669386666971!5m2!1sja!2smy"
+                width="480" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- .right_block -->
           </div>
@@ -253,7 +262,36 @@ export default {
       news_list: await $axios.$get('/rcms-api/1/news/list', { params: { cnt: "3" } }),
       blog_list: await $axios.$get('/rcms-api/1/blog/list', { params: { cnt: "4" } }),
       menu_list: await $axios.$get('/rcms-api/1/product/list', { params: { cnt: "6" } }),
+      insta_detail: await $axios.$get('/rcms-api/1/instagram/detail/25'),
     };
   },
 }
 </script>
+
+<style>
+.square_contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square_contents a {
+  display: block;
+  position: relative;
+  width: 31%;
+  margin: 1%;
+}
+
+.square_contents a::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.square_contents img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+}
+</style>
