@@ -48,47 +48,11 @@
         </div>
       </div>
 
-      <div class="blog_area">
-        <div class="base_inner">
-          <h2 class="area_head title_type01">Blog</h2>
-          <div class="posts_block">
-
-            <div v-for="n in blog_list.list" :key="n.topics_id" class="post_box">
-              <nuxt-link :to="`/blog/detail/${n.topics_id}`" class="link_box opa">
-                <div class="img_wrap">
-                  <div class="box_img">
-                    <img width="200" height="160" :src="`${n.ext_col_01.url}?width=200&height=160`"
-                      class="image wp-post-image" alt="" scale="0">
-                  </div>
-                  <div class="post_cat">{{ n.contents_type_nm }}</div>
-                </div>
-                <!-- .img_wrap -->
-                <div class="textbox">
-                  <div class="meta_box">
-                    <div class="post_date">{{ n.ymd }}</div>
-                  </div>
-                  <div class="box_title">{{ n.subject }}</div>
-                </div>
-                <!-- .textbox -->
-              </nuxt-link>
-            </div>
-            <!-- .post_box -->
-
-          </div>
-          <!-- .posts_block -->
-
-          <div class="btn_box">
-            <nuxt-link to="/blog/" class="btn_type01 btn opa"><span>more</span></nuxt-link>
-          </div>
-        </div>
-        <!-- .base_inner -->
-      </div>
-
       <div class="insta_area">
         <div class="base_inner">
           <h2 class="area_head title_type01">Instagram</h2>
           <div class="square_contents">
-            <a v-for="n in insta_detail.details.ext_col_05" :key="n.ext_col_05" href="#"><img :src=n.ext_col_07></a>
+            <a v-for="(n,i) in insta_detail.details.ext_col_05" :key=i href="#"><img :src=n.ext_col_07></a>
           </div>
         </div>
       </div>
