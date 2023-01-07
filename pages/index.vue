@@ -52,7 +52,7 @@
         <div class="base_inner">
           <h2 class="area_head title_type01">Instagram</h2>
           <div class="square_contents">
-            <a v-for="(n,i) in insta_detail.details.ext_col_05" :key=i href="https://www.instagram.com/emma__web_design/" target="_blank"><img :src=n.ext_col_07></a>
+            <a v-for="(n,i) in insta_detail.details.media_url" :key=i href="https://www.instagram.com/emma__web_design/" target="_blank"><img :src=n></a>
           </div>
         </div>
       </div>
