@@ -6,6 +6,9 @@
 
 <script>
 export default {
+  validate({ query }) {
+        return query.code != null
+    },
   methods: {
     async makeAccessToen() {
       const payload = {

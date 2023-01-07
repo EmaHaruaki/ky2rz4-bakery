@@ -19,9 +19,6 @@
               <li>
                 <nuxt-link to="/news/" class="opa">NEWS</nuxt-link>
               </li>
-              <li>
-                <nuxt-link to="/blog/" class="opa">BLOG</nuxt-link>
-              </li>
             </ul>
             <ul class="sns_list">
 
