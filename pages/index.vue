@@ -4,7 +4,7 @@
 
     <div id="mainvisual">
       <h1 class="main_logo">
-        <img src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/logo_transparent.png" alt="街のパン屋"
+        <img src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/AdobeStock_265183690-white.png?width=300" alt="街のパン屋"
           class="retina image" scale="0">
       </h1>
       <div class="main_visual"

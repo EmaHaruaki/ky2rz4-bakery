@@ -4,7 +4,7 @@
       <nav class="gnav">
         <div class="logo">
           <nuxt-link to="/" class="opa">
-            <img src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/logo_transparent.png" alt="街のパン屋"
+            <img src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/AdobeStock_265183690-white.png" alt="街のパン屋"
               class="retina image" scale="0">
           </nuxt-link>
         </div>
@@ -49,7 +49,7 @@
 
       <div class="panel_wrap">
         <div class="logo_box"><nuxt-link to="/" class="opa"><img
-              src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/logo_transparent.png" alt="街のパン屋"
+              src="https://ky2rz4-bakery.g.kuroco-img.app/files/user/logo/AdobeStock_265183690-white.png" alt="街のパン屋"
               class="image" scale="0"></nuxt-link></div>
         <div class="nav_block">
           <ul class="nav_list">

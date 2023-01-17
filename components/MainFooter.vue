@@ -26,10 +26,10 @@
             <ul class="sns_list">
 
               <li>
-                <a to="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></a>
+                <a href="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></a>
               </li>
               <li>
-                <a to="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></a>
+                <a href="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></a>
               </li>
 
             </ul>
