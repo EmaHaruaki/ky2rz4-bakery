@@ -6,6 +6,6 @@
         }
       ],
     "redirects": [],
-    "basic":[],
+    "basic":["pitta:bagel"],
     "ip_restrictions":[]
 }
