@@ -26,10 +26,10 @@
             <ul class="sns_list">
 
               <li>
-                <nuxt-link to="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></nuxt-link>
+                <a to="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></a>
               </li>
               <li>
-                <nuxt-link to="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></nuxt-link>
+                <a to="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></a>
               </li>
 
             </ul>
