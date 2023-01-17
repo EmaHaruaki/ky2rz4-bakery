@@ -2973,3 +2973,7 @@ header .bottom_block p {
 .sns_list a[href$="/feed/"]:before {
   content: "\F09E";
 }
+
+.sns_list a[href*="mercari.com"]:before {
+  content: "\f16b";
+}

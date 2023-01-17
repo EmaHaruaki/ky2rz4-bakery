@@ -31,8 +31,8 @@
 
         <div class="right_block">
           <div class="h_info">
-            <div class="tel">TEL 03-1234-5678</div>
-            <div class="time">OPEN 9:00〜16:00 / CLOSE 火・水<br>※売り切れ次第閉店</div>
+            <!--<div class="tel">TEL 03-1234-5678</div>-->
+            <div class="time">OPEN：水・木・金　15:30~ / CLOSE：月・火・土・日<br>※売り切れ次第閉店<br>メルカリ販売は<a href="https://jp.mercari.com/user/profile/280608396" target="_blank">こちら</a></div>
           </div>
         </div>
       </nav>
@@ -75,12 +75,12 @@
         </div>
         <div class="bottom_block">
           <div class="info_wrap">
-            <div class="tel tel_link" data-number="0312345678"><a href="tel:0312345678">TEL 03-1234-5678</a></div>
-            <div class="time">OPEN 9:00〜16:00 / CLOSE 火・水<br>※売り切れ次第閉店</div>
+            <!--<div class="tel tel_link" data-number="0312345678"><a href="tel:0312345678">TEL 03-1234-5678</a></div>-->
+            <div class="time">OPEN：水・木・金　15:30~ / CLOSE：月・火・土・日<br>※売り切れ次第閉店<br>メルカリ販売は<a href="https://jp.mercari.com/user/profile/280608396" target="_blank">こちら</a></div>
           </div>
           <ul class="sns_list">
-            <li><a href="https://www.facebook.com/" target="_blank" class="opa"></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" class="opa"></a></li>
+            <li><a href="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></a></li>
+            <li><a href="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></a></li>
           </ul>
         </div>
       </div>

@@ -19,19 +19,22 @@
               <li>
                 <nuxt-link to="/news/" class="opa">NEWS</nuxt-link>
               </li>
+              <li>
+                <nuxt-link to="/#shopinfo" class="opa">SHOP</nuxt-link>
+              </li>
             </ul>
             <ul class="sns_list">
 
               <li>
-                <nuxt-link to="https://www.facebook.com/" target="_blank" class="opa"></nuxt-link>
+                <nuxt-link to="https://jp.mercari.com/user/profile/280608396" target="_blank" class="opa"></nuxt-link>
               </li>
               <li>
-                <nuxt-link to="https://www.instagram.com/" target="_blank" class="opa"></nuxt-link>
+                <nuxt-link to="https://www.instagram.com/pittabagel_sweets/" target="_blank" class="opa"></nuxt-link>
               </li>
 
             </ul>
           </div>
-          <small class="copyright">Copyright(C)<span class="pc_on"> </span><br class="sp_on">街のパン屋<span
+          <small class="copyright">Copyright(C)<span class="pc_on"> </span><br class="sp_on">Pitta Bagel & Sweets<span
               class="pc_on"> </span><br class="sp_on">All rights reserved.</small>
         </div>
       </div>

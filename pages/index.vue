@@ -8,7 +8,7 @@
           class="retina image" scale="0">
       </h1>
       <div class="main_visual"
-        style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/AdobeStock_240837011.jpg);">
+        style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/AdobeStock_294897790.jpeg);">
         <div class="visual_text">
           <span>
             四季折々の味が楽しめる<br>
@@ -21,8 +21,8 @@
     <!-- /#mainvisual -->
 
     <div class="h_info">
-      <div class="tel">TEL 03-1234-5678</div>
-      <div class="time">OPEN 9:00〜16:00 / CLOSE 火・水<br>※売り切れ次第閉店</div>
+      <!--<div class="tel">TEL 03-1234-5678</div>-->
+      <div class="time">OPEN：水・木・金　15:30~ / CLOSE：月・火・土・日<br>※売り切れ次第閉店<br>メルカリ販売は<a href="https://jp.mercari.com/user/profile/280608396" target="_blank">こちら</a></div>
     </div>
 
     <div id="contents_index" class="contents">
@@ -144,18 +144,18 @@
           <div class="area_title title_type01">Shop Info</div>
           <div class="img_wrap">
             <div class="area_img"
-              style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/AdobeStock_320318663.jpeg);">
+              style="background-image: url(https://ky2rz4-bakery.g.kuroco-img.app/files/user/Image/Point-Blur_20211221_011620.webp);">
             </div>
           </div>
 
           <div class="block_wrap">
             <div class="left_block">
-              <div class="shop_name">街のパン屋</div>
+              <div class="shop_name">Pitta Bagel & Sweets</div>
               <div class="address">
-                〒135-0000<br>
-                東京都江東区住吉x-xx-x
+                〒135-0015<br>
+                東京都江東区千石1-10-7
               </div>
-              <div class="contact_wrap info_box">
+              <!--<div class="contact_wrap info_box">
                 <div class="tel_box contact_box tel_link" data-number="0312345678">
                   <span class="box_head">TEL</span><span class="tel">03-1234-5678</span>
                 </div>
@@ -163,17 +163,17 @@
                   <span class="box_head">MAIL</span><a href="mailto:example@example.com"
                     class="mail">example@example.com</a>
                 </div>
-              </div>
+              </div>-->
               <!-- .info_wrap -->
 
               <div class="time_wrap info_box">
-                <div class="open">営業時間/9:00〜16:00（売り切れ次第終了）</div>
-                <div class="close">定休日/火・水</div>
+                <div class="open">【営業時間】<br>[水・木・金]15:30~（売り切れ次第終了）</div>
+                <div class="close">【定休日】<br>月・火・土・日</div>
               </div>
               <!-- .time_wrap -->
 
               <div class="access info_box">
-                住吉駅より徒歩5分<br>
+                住吉駅から1,066m<br>
 
               </div>
             </div>
@@ -181,7 +181,7 @@
 
             <div class="right_block">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.3159110266847!2d139.8127350395483!3d35.68763154717061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601888dfbadb7325%3A0x50131cc0648705ce!2z5L2P5ZCJ6aeF!5e0!3m2!1sja!2smy!4v1669386666971!5m2!1sja!2smy"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d540.7581920488673!2d139.81262425444697!3d35.679777907520574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f4d4cd38083d591!2sPitta%20Bagel!5e0!3m2!1sja!2smy!4v1673971538970!5m2!1sja!2smy"
                 width="480" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
