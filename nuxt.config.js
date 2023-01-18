@@ -14,8 +14,19 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: '本サイトはJamStack構成で作成したパン屋さん向けテンプレートサイトです。インスタグラムとの連携機能を実装しています。' },
+      { name: 'format-detection', content: 'telephone=no' },
+
+      { hid: 'og:site_name', property: 'og:site_name', content: '街のパン屋さん' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://ky2rz4-bakery.g.kuroco-front.app/' },
+      { hid: 'og:title', property: 'og:title', content: '街のパン屋さん' },
+      { hid: 'og:description', property: 'og:description', content: '本サイトはJamStack構成で作成したパン屋さん向けテンプレートサイトです。インスタグラムとの連携機能を実装しています。' },
+      { hid: 'og:image', property: 'og:image', content: 'サイトURL' },
+
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
+      { hid: 'twitter:title', name: 'twitter:title', content: '街のパン屋さん' },
+      { hid: 'twitter:description', name: 'twitter:description', content: '本サイトはJamStack構成で作成したパン屋さん向けテンプレートサイトです。インスタグラムとの連携機能を実装しています。' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
